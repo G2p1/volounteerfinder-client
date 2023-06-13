@@ -8,4 +8,4 @@ class SomeService{
     }
 }
 
-export default new SomeService();
+export default SomeService;

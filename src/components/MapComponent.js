@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import SomeService from '../services/SomeService';
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+//import SomeService from '../services/SomeService';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 
-class UserComponent extends Component{
+class MapComponent extends Component{
 
     
     constructor(props){
@@ -13,15 +13,15 @@ class UserComponent extends Component{
         }    
     }
 
-    componentDidMount(){
-        SomeService.getSome().then(param => {
-            this.setState({some: param.data})
-        });
-    }
+//    componentDidMount(){
+//        SomeService.getSome().then(param => {
+//            this.setState({some: param.data})
+//        });
+//    }
 
     render(){
         return(
-            <MapContainer style={{ height: 536 }} center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+            <MapContainer style={{ height: "90vh" }} center={[48.379, 31.165]} zoom={6} scrollWheelZoom={false}>
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -31,6 +31,7 @@ class UserComponent extends Component{
       A pretty CSS3 popup. <br /> Easily customizable.
     </Popup>
   </Marker>
+
 </MapContainer>
 
         )
@@ -38,4 +39,4 @@ class UserComponent extends Component{
 
 }
 
-export default UserComponent;
+export default MapComponent;
