@@ -1,0 +1,61 @@
+.leaflet-popup-content-wrapper {
+    background-color: darkgreen;
+    color: beige;
+    height: 300px;
+    width: 700px;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+}
+
+.leaflet-popup-tip-container {
+}
+.modal-header{
+    border: solid black;
+    position: absolute;
+
+    font-size: 28px;
+
+    width: 28vw;
+    height: 6vh;
+    
+        left: 0.5vw;
+}
+.modal-body{
+    border: solid black;
+    position: absolute;
+
+    font-size: 18px;
+
+    width: 43.4vw;
+    height: 24.5vh;
+    
+    top: 9vh;
+        left: 0.5vw;
+
+}
+.modal-footer{
+    border: solid black;
+    position: absolute;
+
+    font-size: 28px;
+
+    width: 43.4vw;
+    height: 6vh;
+    
+    bottom: 0.5vh;
+        left: 0.5vw;
+
+
+}
+.modal-user{
+    border: solid black;
+    position: absolute;
+
+    font-size: 28px;
+
+width: 15vw;
+height: 6vh;
+
+    right: 1.5vw;
+}

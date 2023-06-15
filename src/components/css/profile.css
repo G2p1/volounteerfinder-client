@@ -1,0 +1,65 @@
+.containerp{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+
+    width: 60vw;
+    height: 60vh;
+
+    box-shadow: 10px 5px 5px 5px rgb(2, 71, 2);
+    border-radius: 10px;
+    
+    position: absolute;
+    
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    background-color: darkgreen;
+
+    z-index: 1000;
+    
+
+}
+.containerp>div{
+    border: solid black;
+}
+.posting{
+    position:absolute;
+    height: 39vh;
+    width: 40vw;
+
+    bottom: 0.5vh;
+    left:0.5vw;
+}
+
+.username{
+    position: absolute;
+    height: 4vh;
+    width: 18vw;
+    font-size: 28px;
+
+    top: 0.5vh;
+    right: 0.5vw;
+}
+.info{
+    position: absolute;
+    height: 17vh;
+    width: 40vw;
+    
+
+    top: 0.5vh;
+    left: 0.5vw;
+}
+.comments{
+    position: absolute;
+    height: 52vh;
+    width: 18vw;
+    
+
+    bottom: 0.5vh;
+    right: 0.5vw;
+}

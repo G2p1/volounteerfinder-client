@@ -1,20 +1,22 @@
 import React, {Component} from 'react';
+import '../components/css/loginWindow.css'
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/HeaderHome';
+import Footer from '../components/FooterHome';
 import MapComponent from '../components/MapComponent';
+import LoginWindow from '../components/LoginWindow';
 
 class HomePage extends Component{
 
-constructor(props){
-    super(props);
-}
 
 render(){
     return(
-        <div>
+        <div className='HomePage'>
             <Header/>
-            <MapComponent/>
+            <div className='container'>
+            <MapComponent className='mc'/>
+            <LoginWindow className='lw'/>
+            </div>
             <Footer/>
         </div>
     )

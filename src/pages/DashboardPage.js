@@ -1,16 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import Header from '../components/Header';
-import Footer from '../components/Footer';
-import MapComponent from '../components/MapComponent';
+import Footer from '../components/FooterHome';
+import MapComponent from '../components/MapComponentDashboard';
 
-class HomePage{
+class HomePage extends Component{
+
+
 
 render(){
     return(
-        <div>
+        <div className='HomePage'>
             <Header/>
-            <MapComponent/>
+            <div className='container'>
+            <MapComponent className='mc'/>
+            </div>
             <Footer/>
         </div>
     )

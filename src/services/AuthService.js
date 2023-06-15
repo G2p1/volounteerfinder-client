@@ -4,7 +4,8 @@ export const AuthService = {
   login: (username, password) => {
     return api.post('/auth/signin', { username, password })
       .then(response => {
-        if (response.data.accessToken) {
+        if (response.data.token) {
+          
           localStorage.setItem('user', JSON.stringify(response.data));
         }
         return response.data;
@@ -18,4 +19,12 @@ export const AuthService = {
   getCurrentUser: () => {
     return JSON.parse(localStorage.getItem('user'));
   },
+  register: (username, email, password)=>{
+    return api.post('/auth/signup', {
+      username,
+      email,
+      password,
+    });
+  }
+  
 };

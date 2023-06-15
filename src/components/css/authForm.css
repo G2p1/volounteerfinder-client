@@ -1,0 +1,256 @@
+
+.container{
+    position: relative;
+    
+}
+.formAuth{
+    position: absolute;
+
+    width: 60vw;
+    height: 60vh;
+
+    box-shadow: 10px 5px 5px 5px rgb(2, 71, 2);
+    border-radius: 10px;
+
+    background-color: darkgreen;
+
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    z-index: 1000;
+    
+    align-items: center;
+}
+
+.formAuth>div>#form-username{
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-20vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.formAuth>div>#form-password{
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:5vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.formAuth>div>button{
+    position: absolute;
+
+    width: 10vw;
+    height: 5vh;
+
+    left:0;
+    top:25vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.labelun{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-27vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.labelpw{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-2vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.form-group{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color:red;
+
+    position: absolute;
+    width: 7vw;
+    height: 5vh;
+
+    left: 0;
+    top: 40vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.formAuthr{
+    position: absolute;
+
+    width: 60vw;
+    height: 60vh;
+
+    box-shadow: 10px 5px 5px 5px rgb(2, 71, 2);
+    border-radius: 10px;
+
+    background-color: darkgreen;
+
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    z-index: 1000;
+    
+    align-items: center;
+}
+
+.formAuthr>div>#formr-username{
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-40vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.formAuthr>div>#formr-password{
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-15vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.formAuthr>div>#formr-email{
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:10vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.formAuthr>div>button{
+    position: absolute;
+
+    width: 10vw;
+    height: 5vh;
+
+    left:0;
+    top:25vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+.labelunr{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-47vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.labelpwr{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:-22vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.labelemr{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color: beige;
+
+    position: absolute;
+
+    width: 15vw;
+    height: 5vh;
+
+    left:0;
+    top:2vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.formr-groupr{
+    font-family: 'Josefin';
+    font-weight: 500;
+    font-size: 16px;
+    color:red;
+
+    position: absolute;
+    width: 7vw;
+    height: 5vh;
+
+    left: 0;
+    top: 40vh;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
